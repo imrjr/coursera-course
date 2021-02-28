@@ -1,0 +1,126 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #5803F6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #64D8FB;
+  border-radius: 0;
+  border: 0;
+}
+
+/******** SOLVE THE PROBLEM OF THE LEFT MARGIN OF THE TITLE ********/
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  /* font-family: 'Lora', serif; */
+  color: #380499;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 1px #222; */
+  margin-top: 0;
+  margin-bottom: 25px;
+  /* line-height: .75; */
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* #nav-list {
+  margin-top: 10px;
+} */
+#nav-list a {
+  color: #380499;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #C9E0E7;
+}
+/* #nav-list a span {
+  font-size: 1.8em;
+} */
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #380499;
+}
+/* .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+} */
+/* END HEADER */
+
+/******** MAIN SECTION ********/
+
+/* #main-content {
+  background-color: #939FA3;
+  height: 1000px;
+  margin: 10px auto 30px auto;
+} */
+.section h3 {
+  font-size: 130%;
+  font-weight: bold;
+  /* text-align: center; */
+}
+.section p {
+  font-size: 90%;
+  /* margin: 10px auto 10px; */
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.section {
+  background-color: #939FA3;
+  height: 600px;
+  margin: 10px auto 30px;
+  /* padding: 5px auto 30px auto; */
+
+}
+.section a:hover, .section a:focus {
+  text-decoration: none;
+}
+.section a {
+  color: #9EE0F4;
+  font-size: 90%;
+  margin-left: 10px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+}
